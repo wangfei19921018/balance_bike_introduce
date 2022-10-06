@@ -8,7 +8,7 @@ import BasicParameters from "../views/basic_parameters/BasicParameters.vue";
 import NativeID from "../views/native_id/NativeID.vue";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/company_profile",
