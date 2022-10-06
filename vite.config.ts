@@ -5,7 +5,6 @@ import vue from "@vitejs/plugin-vue";
 import pxtorem from "@minko-fe/postcss-pxtorem";
 
 export default defineConfig({
-  base: "/",
   plugins: [vue()],
   css: {
     postcss: {
